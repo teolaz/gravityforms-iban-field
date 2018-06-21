@@ -1,0 +1,18 @@
+{
+    "name": "teolaz/gravityforms-iban-field",
+    "authors": [
+        {
+            "name": "Matteo Lazzarin",
+            "homepage": "https://github.com/teolaz"
+        }
+    ],
+    "description": "Gravity Forms additional text field with IBAN validation logic",
+    "require": {
+        "globalcitizen/php-iban": "v2.6.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "Teolaz\\GravityFormsIBANField\\": "classes"
+        }
+    }
+}
