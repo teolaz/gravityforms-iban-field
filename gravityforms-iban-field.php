@@ -6,6 +6,8 @@ Description: An add-on to validate the printed text field with IBAN specificatio
 Version: 1.0
 Author: teolaz
 Author URI: https://github.com/teolaz
+Text Domain:  gravityforms-iban-field
+Domain Path:  /languages
 */
 
 require_once dirname( __FILE__ ) . '/vendor/autoload.php';
@@ -18,3 +20,7 @@ add_action( 'gform_loaded', function () {
 	}
 	GFAddOn::register( \Teolaz\GravityFormsIBANField\Addon::class );
 }, 5 );
+
+add_action( 'plugins_loaded', function () {
+	load_plugin_textdomain( 'gravityforms-iban-field', false, basename( dirname( __FILE__ ) ) . '/languages' );
+} );
