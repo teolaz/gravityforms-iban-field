@@ -1,0 +1,47 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "909d3f765f4e372a9daf665cccd23ddf",
+    "content-hash": "be8da9b744340b8a87280dbcd066199f",
+    "packages": [
+        {
+            "name": "globalcitizen/php-iban",
+            "version": "v2.6.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/globalcitizen/php-iban.git",
+                "reference": "fd98bd7b4b71cc1bd2a3ecf16fd79b71b44004a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/globalcitizen/php-iban/zipball/fd98bd7b4b71cc1bd2a3ecf16fd79b71b44004a1",
+                "reference": "fd98bd7b4b71cc1bd2a3ecf16fd79b71b44004a1",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "oophp-iban.php",
+                    "php-iban.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "description": "php-iban is a library for parsing and validating IBAN (and IIBAN) bank account information.",
+            "time": "2018-06-19 23:05:14"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
